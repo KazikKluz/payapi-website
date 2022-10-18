@@ -14,12 +14,17 @@ module.exports = {
       mirageBlue: '#1b262f',
       charmPink: '#da6d97',
       lightSanJuanBlue: '6c8294',
+      background: '#edf3f8',
     },
     fontFamily: {
       sans: ['PublicSansReg'],
       serif: ['DMSerifDisplay'],
     },
-    extend: {},
+    extend: {
+      boxShadow: {
+        button: '10px 10px 25px -10px rgba(54, 83, 107, 0.25)',
+      },
+    },
   },
   plugins: [],
 };

@@ -1,13 +1,14 @@
 import Image from 'next/image';
 import Navbar from './Navbar';
-
-import mobileImage from '../public/SVG/illustration-phone-mockup.svg';
+import Button from './Button';
 
 const Hero = () => {
   return (
     <div
-      className='h-[73.7rem] bg-background relative 
-    overflow-clip pt-[4rem] px-[11.45833%] -z-[1]'
+      className='xl:h-[73.7rem] md:h-[80.9rem] bg-background bg-circle bg-no-repeat xl:bg-[length:780px_780px]
+      md:bg-[length:949px_949px]
+      xl:bg-[right_-12.5rem_bottom_9.1rem] md:bg-[center_bottom_52.3rem] relative 
+    overflow-clip pt-[4rem] xl:px-[16.5rem] md:px-[4rem] xl:w-[144rem] md:w-[76.8rem] mx-auto'
     >
       <Navbar />
       <div className='relative'>
@@ -18,8 +19,26 @@ const Hero = () => {
           >
             Start building with our APIs for absolutely free.
           </h1>
+          <form
+            className='flex mt-[2.1rem] bg-linkWaterWhite w-[44.5rem] rounded-[2.4rem]
+            shadow-button '
+          >
+            <input
+              className='ml-[2.7rem] mr-auto rounded-[2.4rem] font-sans text-[1.5rem] font-[700] placeholder-sanJuanBlue
+              placeholder-opacity-50 bg-linkWaterWhite outline-0 w-[54%] text-sanJuanBlue'
+              type='text'
+              placeholder='Enter email address'
+            />
+            <Button>Schedule a demo</Button>
+          </form>
+          <p className='text-lightSanJuanBlue font-[400] text-[1.5rem] leading-[1.8rem] ml-[2.7rem] mt-[1.6rem]'>
+            Have any questions? <span className='font-[700]'>Contact Us</span>
+          </p>
         </div>
-        <div className='absolute -top-[13.3rem] -right-[.7rem]'>
+        <div
+          className='absolute xl:top-[-13.3rem] md:top-[-13.8rem]  md:w-[28rem] xl:right-[-.7rem] 
+        md:translate-x-[76%]'
+        >
           <Image
             src='/SVG/illustration-phone-mockup.svg'
             height={660}
@@ -28,8 +47,6 @@ const Hero = () => {
           />
         </div>
       </div>
-
-      <div className='absolute -z-[1] bg-sanJuanBlue w-[78rem] h-[78rem] right-[-9.722222%] top-[-17.2rem] rounded-full opacity-[.15]'></div>
     </div>
   );
 };

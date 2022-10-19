@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Button from './Button';
 
 const Navbar = () => (
-  <nav className='h-[4.8rem] w-auto mx-auto flex'>
+  <nav className='h-[4.8rem] w-auto mx-auto flex z-50'>
     <Link href='/'>
       <a className='flex items-center mr-[6.4rem]'>
         <svg className='w-[13.5rem] h-[3.8rem]'>
@@ -11,7 +11,7 @@ const Navbar = () => (
         </svg>
       </a>
     </Link>
-    <ul className='flex items-center font-sans text-[1.5rem] font-[700] text-sanJuanBlue opacity-[.7] tracking-wide'>
+    <ul className='flex items-center font-sans text-[1.5rem] font-[700] text-sanJuanBlue opacity-[.7] tracking-wide mr-auto'>
       <li className='mr-[4rem]'>
         <Link href='/'>
           <a className=''>Pricing</a>
@@ -28,9 +28,7 @@ const Navbar = () => (
         </Link>
       </li>
     </ul>
-    <div className='ml-auto'>
-      <Button>Schedule a Demo</Button>
-    </div>
+    <Button>Schedule a Demo</Button>
   </nav>
 );
 

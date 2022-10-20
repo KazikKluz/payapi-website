@@ -5,22 +5,24 @@ import Button from './Button';
 const Hero = () => {
   return (
     <div
-      className='xl:h-[73.7rem] md:h-[80.9rem] bg-background bg-circle bg-no-repeat xl:bg-[length:780px_780px]
-      md:bg-[length:949px_949px]
+      className='xl:h-[73.7rem] md:h-[80.9rem] sm:h-[73.9rem] bg-background bg-circle bg-no-repeat xl:bg-[length:780px_780px]
+      md:bg-[length:949px_949px] sm:bg-[length:780px_780px]
       xl:bg-[right_-12.5rem_bottom_9.1rem] md:bg-[center_bottom_52.3rem] relative 
-    overflow-clip pt-[4rem] xl:px-[16.5rem] md:px-[4rem] xl:w-[144rem] md:w-[76.8rem] mx-auto'
+    overflow-clip pt-[4rem] xl:px-[16.5rem] md:px-[4rem] sm:px-[2.4rem] xl:w-[144rem] md:w-[76.8rem] mx-auto md:flex md:flex-col
+    md:justify-between xl:pb-[15.2rem] md:pb-40'
     >
       <Navbar />
-      <div className='relative'>
+      <div className=''>
         <div>
           <h1
-            className='font-serif text-sanJuanBlue text-[7.2rem] w-[54.6rem] h-[24.3rem]
-          leading-[7.2rem] mt-[15.2rem] tracking-[-0.553846px]'
+            className='font-serif text-sanJuanBlue xl:text-[7.2rem] md:text-[4.8rem] xl:w-[54.6rem] md:w-[57.3rem]
+            xl:text-left md:text-center  md:mx-auto xl:ml-0 xl:h-[24.3rem] md:h-[12.2rem]
+          xl:leading-[7.2rem] md:leading-[5.6rem] mt-[15.2rem] xl:tracking-[-0.553846px] md:tracking-[-0.369231px]'
           >
             Start building with our APIs for absolutely free.
           </h1>
           <form
-            className='flex mt-[2.1rem] bg-linkWaterWhite w-[44.5rem] rounded-[2.4rem]
+            className='flex xl:mt-[2.1rem] md:mt-[2.2rem]  xl:ml-0 md:mx-auto  bg-linkWaterWhite w-[44.5rem] rounded-[2.4rem]
             shadow-button '
           >
             <input
@@ -31,13 +33,13 @@ const Hero = () => {
             />
             <Button>Schedule a demo</Button>
           </form>
-          <p className='text-lightSanJuanBlue font-[400] text-[1.5rem] leading-[1.8rem] ml-[2.7rem] mt-[1.6rem]'>
+          <p className='text-lightSanJuanBlue font-[400] text-[1.5rem] leading-[1.8rem] xl:ml-[2.7rem] xl:text-left md:text-center mt-[1.6rem] '>
             Have any questions? <span className='font-[700]'>Contact Us</span>
           </p>
         </div>
         <div
-          className='absolute xl:top-[-13.3rem] md:top-[-13.8rem]  md:w-[28rem] xl:right-[-.7rem] 
-        md:translate-x-[76%]'
+          className='absolute xl:top-[10.6rem] xl:right-[15.5rem] xl:w-[41.9rem] xl:h-[66rem] md:w-[25.3rem] md:h-auto
+        md:top-[10.1rem] md:right-[24.15rem]'
         >
           <Image
             src='/SVG/illustration-phone-mockup.svg'

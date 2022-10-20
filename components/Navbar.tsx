@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Button from './Button';
 
 const Navbar = () => (
-  <nav className='h-[4.8rem] w-auto mx-auto flex z-50'>
+  <nav className='h-[4.8rem] w-auto  flex z-50 rounded-[2.4rem]'>
     <Link href='/'>
       <a className='flex items-center mr-[6.4rem]'>
         <svg className='w-[13.5rem] h-[3.8rem]'>
@@ -28,7 +28,9 @@ const Navbar = () => (
         </Link>
       </li>
     </ul>
-    <Button>Schedule a Demo</Button>
+    <div className='shadow-button rounded-[2.4rem]'>
+      <Button>Schedule a Demo</Button>
+    </div>
   </nav>
 );
 

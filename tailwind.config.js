@@ -27,6 +27,9 @@ module.exports = {
       backgroundImage: {
         circle: "url('../public/SVG/bg-pattern-circle.svg')",
       },
+      opacity: {
+        15: '.15',
+      },
     },
   },
   plugins: [],

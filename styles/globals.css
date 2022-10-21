@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .hide {
+    transform: translatex(30rem);
+  }
+  /* ... */
+}
+
 @font-face {
   font-family: DMSerifDisplay;
   src: url(../fonts/DMSerifDisplay-Regular.ttf);

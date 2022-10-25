@@ -15,6 +15,7 @@ module.exports = {
       charmPink: '#da6d97',
       lightSanJuanBlue: '#6c8294',
       background: '#edf3f8',
+      darker: '#e8eff4',
     },
     fontFamily: {
       sans: ['PublicSansReg'],

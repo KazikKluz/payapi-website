@@ -13,7 +13,7 @@ const Hero = () => {
     >
       <Navbar />
       <div className=''>
-        <div>
+        <div className='w-[32.6rem] text-center mx-auto'>
           <h1
             className='font-serif text-sanJuanBlue xl:text-[7.2rem] md:text-[4.8rem] text-[3.15rem] xl:w-[54.6rem] md:w-[57.3rem]
             w-auto xl:text-left md:text-center text-center  md:mx-auto xl:ml-0 xl:h-[24.3rem] md:h-[12.2rem]

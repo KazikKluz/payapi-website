@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <nav className='h-[4.8rem] w-auto  flex justify-between z-50 rounded-[2.4rem]'>
       <Link href='/'>
-        <a className='flex items-center mr-[6.4rem]'>
+        <a className='flex items-center mr-[6.4rem] fill-sanJuanBlue'>
           <svg className='w-[13.5rem] h-[3.8rem]'>
             <use xlinkHref='/sprite.svg#logo'></use>
           </svg>

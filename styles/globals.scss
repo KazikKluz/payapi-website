@@ -7,6 +7,14 @@
     transform: translatex(30rem);
   }
 
+  .btn {
+    transition: all 0.15s ease-in-out;
+  }
+
+  .btn:active {
+    transform: translateY(1.25px);
+  }
+
   .btnDark {
     background-color: transparent;
     color: #fbfcfe;

@@ -7,10 +7,10 @@ import ReadyToStart from '../components/ReadyToStart';
 
 const About: NextPage = () => {
   return (
-    <>
-      <div className='w-[100%] bg-background '>
+    <div className='bg-background'>
+      <div className='w-[100%]  '>
         <div
-          className=' pt-[4rem]   relative bg-background overflow-hidden
+          className=' pt-[4rem]   relative  overflow-hidden
     bg-circle bg-no-repeat bg-[length:780px_780px] bg-[right_-47.9rem_top_-64.4rem]
     md:bg-[right_-51.7rem_top_-46.4rem] xl:bg-[right_-14rem_top_-52.7rem] xl:w-[144rem] mx-auto'
         >
@@ -60,35 +60,39 @@ const About: NextPage = () => {
                   </p>
                 </div>
               </div>
-              <div className='relative  w-full  '>
-                <picture
-                  className='  absolute top-0  right-2/4 translate-x-[50%]
-                '
-                >
-                  <source
-                    media='(max-width: 640px)'
-                    srcSet={`/image-team-members-mobile.jpg`}
-                  />
-                  <img src={`/image-team-members-mobile.jpg`} alt='team' />
-                </picture>
-              </div>
-
-              {/* <div>
-                <Image
-                  src='/image-team-members-mobile.jpg'
-                  width={650}
-                  height={512}
-                  alt='team'
-                />
-              </div> */}
-
-              <ReadyToStart />
             </div>
           </div>
         </div>
       </div>
+      <div className=' mx-auto max-w-[37.5rem] md:hidden'>
+        <Image
+          src='/image-team-members-mobile.jpg'
+          width={375}
+          height={300}
+          alt='team'
+        />
+      </div>
+      <div>
+        <div className='text-center'>
+          <h5 className='font-sans text-[1.6rem] leading-[2.8rem] text-sanJuanBlue/70'>
+            Team Members
+          </h5>
+          <p>300+</p>
+        </div>
+        <div>
+          <h5>Offices in the US</h5>
+          <p>3</p>
+        </div>
+        <div>
+          <h5>Transactions analyzed</h5>
+          <p>10M+</p>
+        </div>
+      </div>
+      <div className=' '>
+        <ReadyToStart />
+      </div>
       <Footer />
-    </>
+    </div>
   );
 };
 

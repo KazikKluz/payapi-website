@@ -2,7 +2,6 @@ import type { NextPage } from 'next';
 import Image from 'next/image';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import ButtonSecondary from '../components/ButtonSecondary';
 import ReadyToStart from '../components/ReadyToStart';
 
 const About: NextPage = () => {
@@ -72,23 +71,63 @@ const About: NextPage = () => {
           alt='team'
         />
       </div>
-      <div>
-        <div className='text-center'>
-          <h5 className='font-sans text-[1.6rem] leading-[2.8rem] text-sanJuanBlue/70'>
+      <div className=' px-[2.4rem] mt-[4.8rem]'>
+        <div className='text-center border-t border-sanJuanBlue/25'>
+          <h5 className='font-sans text-[1.6rem] leading-[2.8rem] text-sanJuanBlue/70 mt-[1.6rem]'>
             Team Members
           </h5>
-          <p>300+</p>
+          <p className='font-serif text-[5.6rem] leading-[7.2rem] text-darkPink tracking-[-0.430769px] mb-[3.2rem]'>
+            300+
+          </p>
         </div>
-        <div>
-          <h5>Offices in the US</h5>
-          <p>3</p>
+        <div className='text-center'>
+          <h5 className='font-sans text-[1.6rem] leading-[2.8rem] text-sanJuanBlue/70'>
+            Offices in the US
+          </h5>
+          <p className='font-serif text-[5.6rem] leading-[7.2rem] text-darkPink tracking-[-0.430769px] mb-[3.2rem]'>
+            3
+          </p>
         </div>
-        <div>
-          <h5>Transactions analyzed</h5>
-          <p>10M+</p>
+        <div className='text-center border-b border-sanJuanBlue/25 '>
+          <h5 className='font-sans text-[1.6rem] leading-[2.8rem] text-sanJuanBlue/70'>
+            Transactions analyzed
+          </h5>
+          <p className='font-serif text-[5.6rem] leading-[7.2rem] text-darkPink tracking-[-0.430769px] mb-[1.6rem]'>
+            10M+
+          </p>
         </div>
       </div>
-      <div className=' '>
+      <div className='text-center px-[2.4rem]'>
+        <div>
+          <h4
+            className='font-serif text-sanJuanBlue text-[2.4rem] leading-[3.2rem]  tracking-[-0.184615px]
+                  mt-[4rem]'
+          >
+            The Culture
+          </h4>
+          <p className='font-sans text-lightSanJuanBlue text-[1.5rem] leading-[2.8rem] mt-[1.6rem]'>
+            We strongly believe there&apos;s always an opportunity to learn from
+            each other outside of day-to-day work, whether it&apos;s
+            company-wide offsites, internal hackathons, or co-worker meetups. We
+            always value cross-team collaboration and diversity of thought, no
+            matter the job title.
+          </p>
+        </div>
+        <div>
+          <h4
+            className='font-serif text-sanJuanBlue text-[2.4rem] leading-[3.2rem]  tracking-[-0.184615px]
+                  mt-[4rem]'
+          >
+            The People
+          </h4>
+          <p className='font-sans text-lightSanJuanBlue text-[1.5rem] leading-[2.8rem] mt-[1.6rem]'>
+            We&apos;re all passionate about building a more efficient and
+            inclusive financial infrastructure together. At PayAPI, we have
+            diverse backgrounds and skills.
+          </p>
+        </div>
+      </div>
+      <div className='mt-[-3.2rem] mb-[14.3rem]'>
         <ReadyToStart />
       </div>
       <Footer />

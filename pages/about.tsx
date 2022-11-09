@@ -15,19 +15,19 @@ const About: NextPage = () => {
         >
           <div className='px-[2.4rem] md:px-[3.9rem] xl:px-[16.5rem] pb-[8rem] md:pb-[3.4rem] mx-auto '>
             <Navbar />
-            <div className='text-center xl:text-left'>
+            <div className='text-center xl:text-left xl:w-[92.1rem] xl:mx-auto'>
               <h3
                 className='font-serif text-sanJuanBlue text-[3.2rem] md:text-[4.8rem] 
              leading-[3.6rem] md:leading-[5.6rem] tracking-[-0.246154px] 
-          md:tracking-[-0.369231px] mt-[4.8rem] md:mt-[7.5rem] xl:text-[5.6rem] xl:tracking-[-0.430769px]
-          h-[15.2rem] md:w-[57.3rem] md:h-[17.8rem] md:mx-auto'
+          md:tracking-[-0.369231px] mt-[4.8rem] md:mt-[7.5rem] xl:mt-[8.2rem] xl:text-[5.6rem] xl:tracking-[-0.430769px]
+          h-[15.2rem] md:w-[57.3rem] md:h-[17.8rem] xl:h-[18.9rem] md:mx-auto xl:w-[73rem] xl:ml-0'
               >
                 We empower <br className='md:hidden' /> innovators <br /> by
                 delivering access to the financial system
               </h3>
 
               <div>
-                <div className='text-center md:text-left md:flex md:flex-row md:mt-[5.4rem] justify-between'>
+                <div className='text-center md:text-left md:flex md:flex-row md:mt-[5.4rem] xl:mt-[5.1rem] justify-between'>
                   <h4
                     className='font-serif text-sanJuanBlue text-[2.4rem] leading-[3.2rem]  tracking-[-0.184615px]
                   mt-[4rem] md:mt-0 md:text-[3.2rem] md:leading-[4rem] md:tracking-[-0.246154px] md:w-[23.3rem] md:text-left'
@@ -36,7 +36,7 @@ const About: NextPage = () => {
                   </h4>
                   <p
                     className='font-sans text-lightSanJuanBlue text-[1.5rem] leading-[2.8rem] mt-[1.6rem]
-                  md:w-[45.6rem] md:mt-0'
+                  md:w-[45.6rem] xl:w-[63.5rem] md:mt-0'
                   >
                     Our main goal is to build beautiful consumer experiences
                     along with developer-friendly infrastructure. The result is
@@ -46,7 +46,7 @@ const About: NextPage = () => {
                     technology.
                   </p>
                 </div>
-                <div className='text-center md:text-left md:flex md:flex-row md:mt-[6.4rem] justify-between'>
+                <div className='text-center md:text-left md:flex md:flex-row md:mt-[6.4rem] xl:mt-[5.6rem] justify-between'>
                   <h4
                     className='font-serif text-sanJuanBlue text-[2.4rem] leading-[3.2rem]  tracking-[-0.184615px]
                   mt-[4rem] md:mt-0 md:text-[3.2rem] md:leading-[4rem] md:tracking-[-0.246154px] md:w-[23.3rem] md:text-left
@@ -56,7 +56,7 @@ const About: NextPage = () => {
                   </h4>
                   <p
                     className='font-sans text-lightSanJuanBlue text-[1.5rem] leading-[2.8rem] mt-[1.6rem]
-                  md:w-[45.6rem] md:mt-0'
+                  md:w-[45.6rem] md:mt-0 xl:w-[63.5rem]'
                   >
                     At the core of our platform is the technical infrastructure
                     APIs that connect consumers. Our innovative product provides
@@ -78,7 +78,7 @@ const About: NextPage = () => {
           alt='team'
         />
       </div>
-      <div className=' mx-auto max-w-[76.8rem] hidden md:inline-flex md:mt-[5.8rem]'>
+      <div className='mx-auto  max-w-[76.8rem] hidden md:block  xl:hidden md:mt-[5.8rem]'>
         <Image
           src='/image-team-members-tablet.jpg'
           width={769}
@@ -86,13 +86,21 @@ const About: NextPage = () => {
           alt='team'
         />
       </div>
+      <div className='mx-auto  max-w-[144rem] hidden xl:block xl:mt-[6.6rem] xl:mx-auto'>
+        <Image
+          src='/image-team-members_desktop.jpg'
+          width={1440}
+          height={500}
+          alt='team'
+        />
+      </div>
       <div
-        className=' px-[2.4rem] mt-[4.8rem]  md:flex md:flex-row md:justify-between md:h-[13.4rem]
-      md:px-[3.9rem]'
+        className=' px-[2.4rem] mt-[4.8rem] xl:mt-[7.2rem]  md:flex md:flex-row md:justify-between md:h-[13.4rem]
+      md:px-[3.9rem] xl:max-w-[111rem] xl:mx-auto  xl:px-0'
       >
         <div
           className='text-center border-t border-sanJuanBlue/25 md:w-[22.3rem]
-        md:border-b md:text-left'
+        md:border-b md:text-left xl:w-[35rem]'
         >
           <h5 className='font-sans text-[1.6rem] leading-[2.8rem] text-sanJuanBlue/70 mt-[1.6rem]'>
             Team Members
@@ -102,7 +110,7 @@ const About: NextPage = () => {
           </p>
         </div>
         <div
-          className='text-center md:w-[22.3rem] md:border-t md:border-sanJuanBlue/25
+          className='text-center md:w-[22.3rem] xl:w-[35rem] md:border-t md:border-sanJuanBlue/25
         md:border-b md:py-[1.6rem]  md:text-left'
         >
           <h5 className='font-sans text-[1.6rem] leading-[2.8rem] text-sanJuanBlue/70'>
@@ -114,7 +122,7 @@ const About: NextPage = () => {
         </div>
         <div
           className='text-center border-b border-sanJuanBlue/25  md:w-[22.3rem]
-        md:border-t md:border-sanJuanBlue/25 md:py-[1.6rem] md:text-left'
+        md:border-t md:border-sanJuanBlue/25 md:py-[1.6rem] md:text-left xl:w-[35rem]'
         >
           <h5 className='font-sans text-[1.6rem] leading-[2.8rem] text-sanJuanBlue/70'>
             Transactions analyzed
@@ -124,7 +132,7 @@ const About: NextPage = () => {
           </p>
         </div>
       </div>
-      <div className='text-center px-[2.4rem] md:px-[3.9rem]'>
+      <div className='text-center px-[2.4rem] md:px-[3.9rem] xl:px-0 xl:w-[92rem] mx-auto '>
         <div className='text-center md:text-left md:flex md:flex-row md:mt-[6.4rem] justify-between'>
           <h4
             className='font-serif text-sanJuanBlue text-[2.4rem] leading-[3.2rem]  tracking-[-0.184615px]

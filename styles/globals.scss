@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 @layer components {
+  .input {
+    @apply bg-background font-sans text-[1.5rem] leading-[2.5rem] tracking-[-0.115385px]
+        pl-[2rem] pb-[1.7rem] border-b border-b-sanJuanBlue/50 mb-[2.4rem];
+  }
+
   .hide {
     transform: translatex(30rem);
   }

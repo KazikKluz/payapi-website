@@ -6,7 +6,7 @@ const Footer = () => {
       <div
         className='h-[35.3rem] md:h-[10rem] bg-mirageBlue flex flex-col md:flex-row pt-[4.1rem] pb-[5.5rem]
     md:py-0 md:justify-center items-center bg-circle bg-no-repeat bg-[length:780px_780px] bg-[center_top_18rem]
-    md:bg-[right_-39rem_top_-13.6rem] xl:w-[144rem] mx-auto'
+    md:bg-[right_-39rem_top_-13.6rem] xl:max-w-[144rem]  mx-auto'
       >
         <div className='w-min mx-auto md:ml-[3.9rem] md:mr-[6.4rem] xl:ml-[16.4rem]'>
           <Link href='/'>

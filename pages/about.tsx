@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import ReadyToStart from '../components/ReadyToStart';
+import Circle from '../components/Circle';
 
 const About: NextPage = () => {
   return (
@@ -11,7 +12,7 @@ const About: NextPage = () => {
         <div
           className=' pt-[4rem]   relative  overflow-hidden
     bg-circle bg-no-repeat bg-[length:780px_780px] bg-[right_-47.9rem_top_-64.4rem]
-    md:bg-[right_-51.7rem_top_-46.4rem] xl:bg-[right_-14rem_top_-52.7rem] xl:w-[144rem] mx-auto'
+    md:bg-[right_-51.7rem_top_-46.4rem] xl:bg-[right_-14rem_top_-52.7rem] xl:max-w-[144rem] mx-auto'
         >
           <div className='px-[2.4rem] md:px-[3.9rem] xl:px-[16.5rem] pb-[8rem] md:pb-[3.4rem] mx-auto '>
             <Navbar />
@@ -86,7 +87,10 @@ const About: NextPage = () => {
           alt='team'
         />
       </div>
-      <div className='mx-auto  max-w-[144rem] hidden xl:block xl:mt-[6.6rem] xl:mx-auto'>
+      <div className='mx-auto  max-w-[144rem] hidden xl:block xl:mt-[6.6rem] xl:mx-auto relative'>
+        <div className='absolute top-[-14rem] left-[-52rem]'>
+          <Circle size='780' />
+        </div>
         <Image
           src='/image-team-members_desktop.jpg'
           width={1440}
@@ -133,7 +137,7 @@ const About: NextPage = () => {
         </div>
       </div>
       <div className='text-center px-[2.4rem] md:px-[3.9rem] xl:px-0 xl:w-[92rem] mx-auto '>
-        <div className='text-center md:text-left md:flex md:flex-row md:mt-[6.4rem] justify-between'>
+        <div className='text-center md:text-left md:flex md:flex-row md:mt-[6.4rem] xl:mt-[7.2rem] justify-between'>
           <h4
             className='font-serif text-sanJuanBlue text-[2.4rem] leading-[3.2rem]  tracking-[-0.184615px]
                   mt-[4rem] md:mt-0 md:text-[3.2rem] md:leading-[4rem] md:tracking-[-0.246154px] md:w-[23.3rem] md:text-left
@@ -143,7 +147,7 @@ const About: NextPage = () => {
           </h4>
           <p
             className='font-sans text-lightSanJuanBlue text-[1.5rem] leading-[2.8rem] mt-[1.6rem]
-                  md:w-[45.6rem] md:mt-0'
+                  md:w-[45.6rem] xl:w-[63.5rem] md:mt-0'
           >
             We strongly believe there&apos;s always an opportunity to learn from
             each other outside of day-to-day work, whether it&apos;s
@@ -152,7 +156,7 @@ const About: NextPage = () => {
             matter the job title.
           </p>
         </div>
-        <div className='text-center md:text-left md:flex md:flex-row md:mt-[6.4rem] justify-between'>
+        <div className='text-center md:text-left md:flex md:flex-row md:mt-[6.4rem] xl:mt-[5.6rem] justify-between'>
           <h4
             className='font-serif text-sanJuanBlue text-[2.4rem] leading-[3.2rem]  tracking-[-0.184615px]
                   mt-[4rem] md:mt-0 md:text-[3.2rem] md:leading-[4rem] md:tracking-[-0.246154px] md:w-[23.3rem] md:text-left'
@@ -161,7 +165,7 @@ const About: NextPage = () => {
           </h4>
           <p
             className='font-sans text-lightSanJuanBlue text-[1.5rem] leading-[2.8rem] mt-[1.6rem]
-                  md:w-[45.6rem] md:mt-0'
+                  md:w-[45.6rem] xl:w-[63.5rem] md:mt-0'
           >
             We&apos;re all passionate about building a more efficient and
             inclusive financial infrastructure together. At PayAPI, we have
@@ -169,7 +173,7 @@ const About: NextPage = () => {
           </p>
         </div>
       </div>
-      <div className='mt-[-3.2rem] mb-[14.3rem] md:mb-[10rem]'>
+      <div className='mt-[-3.2rem] xl:mt-[0.4rem] mb-[14.3rem] md:mb-[10rem] xl:mb-0'>
         <ReadyToStart />
       </div>
       <Footer />

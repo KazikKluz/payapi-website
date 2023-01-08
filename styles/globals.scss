@@ -3,6 +3,29 @@
 @tailwind utilities;
 
 @layer components {
+  input[type='checkbox'] {
+    @apply appearance-none h-[2.4rem] w-[2.4rem] rounded-none bg-sanJuanBlue/25 text-darkPink grid place-content-center;
+  }
+
+  input[type='checkbox']:checked {
+    @apply bg-darkPink;
+  }
+
+  input[type='checkbox']::before {
+    content: '';
+    width: 2.4rem;
+    height: 2.4rem;
+    transform: scale(0);
+    transition: 70ms transform ease-in-out;
+    background-color: #fff;
+
+    clip-path: polygon(79% 40%, 41% 80%, 21% 62%, 30% 52%, 41% 61%, 70% 31%);
+  }
+
+  input[type='checkbox']:checked::before {
+    transform: scale(1);
+  }
+
   .input {
     @apply bg-background font-sans text-[1.5rem] leading-[2.5rem] tracking-[-0.115385px]
         pl-[2rem] pb-[1.7rem] border-b border-b-sanJuanBlue/50 mb-[2.4rem];

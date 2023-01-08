@@ -12,7 +12,7 @@ const Form = () => {
       />
       <div className='flex flex-row items-center'>
         <input
-          className=' h-[2.4rem] w-[2.4rem] rounded-none bg-sanJuanBlue/25 text-darkPink
+          className='
           mr-[2.6rem] shrink-0 '
           type='checkbox'
         />

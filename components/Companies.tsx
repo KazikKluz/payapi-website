@@ -1,4 +1,5 @@
 import ButtonSecondary from './ButtonSecondary';
+import CompLogos from './CompLogos';
 
 const Companies = () => {
   return (
@@ -7,43 +8,9 @@ const Companies = () => {
         className='flex flex-col xl:flex-row-reverse   h-[67rem] md:h-[61.5rem] bg-mirageBlue bg-circle bg-no-repeat bg-[length:78rem_78rem] bg-[center_top_-60rem]
     md:bg-[center_top_-54.8rem] xl:bg-[left_-23.5rem_bottom_5.1rem] py-[8rem] md:py-[8.8rem] px-[2.4rem]
     xl:h-[47.2rem] xl:w-[144rem] xl:mx-auto xl:py-[10rem] xl:px-[16.4rem] items-center 
-    '
+    fill-linkWaterWhite'
       >
-        <div
-          className='w-[28rem] md:w-[53.6rem] mx-auto h-[15.4rem] md:h-[10.3rem] grid grid-cols-2
-       md:grid-cols-3 justify-items-stretch gap-y-[4rem]  xl:mr-0'
-        >
-          <div className='flex items-center justify-start'>
-            <svg className='w-[10.7rem] md:w-[12.9rem] h-[1.5rem] md:h-[1.7rem] flex  items-center fill-linkWaterWhite'>
-              <use xlinkHref='/sprite.svg#tesla'></use>
-            </svg>
-          </div>
-          <div className='flex items-center justify-end md:justify-center '>
-            <svg className='w-[12rem] md:w-[14.5rem] h-[2.6rem] md:h-[3.1rem] fill-linkWaterWhite '>
-              <use xlinkHref='/sprite.svg#microsoft'></use>
-            </svg>
-          </div>
-          <div className='flex items-center justify-start md:justify-end'>
-            <svg className='w-[11.5rem] md:w-[14rem] h-[2.2rem] md:h-[2.7rem] fill-linkWaterWhite'>
-              <use xlinkHref='/sprite.svg#hewlett-packard'></use>
-            </svg>
-          </div>
-          <div className='flex items-center justify-end md:justify-start'>
-            <svg className='w-[10.8rem] md:w-[13.1rem] h-[1.4rem] md:h-[1.7rem] fill-linkWaterWhite'>
-              <use xlinkHref='/sprite.svg#oracle'></use>
-            </svg>
-          </div>
-          <div className='flex items-center justify-start md:justify-center'>
-            <svg className='w-[7.9rem] md:w-[9.6rem] h-[2.7rem] md:h-[3.3rem] fill-linkWaterWhite'>
-              <use xlinkHref='/sprite.svg#google'></use>
-            </svg>
-          </div>
-          <div className='flex items-center justify-end md:justify-end'>
-            <svg className='w-[11.3rem] md:w-[13.7rem] h-[2.2rem] md:h-[2.6rem] fill-linkWaterWhite '>
-              <use xlinkHref='/sprite.svg#nvidia'></use>
-            </svg>
-          </div>
-        </div>
+        <CompLogos />
         <div>
           <h2
             className='text-linkWaterWhite font-serif text-center text-[3.2rem] md:text-[4.8rem] leading-[3.6rem]

@@ -16,6 +16,7 @@ module.exports = {
       lightSanJuanBlue: '#6c8294',
       background: '#edf3f8',
       darker: '#e8eff4',
+      danger: '#ff0000',
     },
     fontFamily: {
       sans: ['PublicSansReg'],

@@ -55,7 +55,7 @@ const Pricing: NextPage = () => {
                         <li className='flex'>
                           <span className='flex items-center '>
                             <svg className='w-[1.5rem] h-[1.5rem] mr-[2.4rem] stroke-darkPink'>
-                              <use xlinkHref='/sprite.svg#icon-check'></use>
+                              <use xlinkHref='/payapi-website/sprite.svg#icon-check'></use>
                             </svg>
                           </span>
                           Transactions
@@ -63,7 +63,7 @@ const Pricing: NextPage = () => {
                         <li className='flex mt-[0.8rem]'>
                           <span className='flex items-center '>
                             <svg className='w-[1.5rem] h-[1.5rem] mr-[2.4rem] stroke-darkPink'>
-                              <use xlinkHref='/sprite.svg#icon-check'></use>
+                              <use xlinkHref='/payapi-website/sprite.svg#icon-check'></use>
                             </svg>
                           </span>
                           Auth
@@ -71,7 +71,7 @@ const Pricing: NextPage = () => {
                         <li className='flex mt-[0.8rem]'>
                           <span className='flex items-center '>
                             <svg className='w-[1.5rem] h-[1.5rem] mr-[2.4rem] stroke-darkPink'>
-                              <use xlinkHref='/sprite.svg#icon-check'></use>
+                              <use xlinkHref='/payapi-website/sprite.svg#icon-check'></use>
                             </svg>
                           </span>
                           Identity
@@ -79,7 +79,7 @@ const Pricing: NextPage = () => {
                         <li className='flex opacity-40 mt-[0.8rem]'>
                           <span className='flex items-center '>
                             <svg className='w-[1.5rem] h-[1.5rem] mr-[2.4rem] stroke-transparent'>
-                              <use xlinkHref='/sprite.svg#icon-check'></use>
+                              <use xlinkHref='/payapi-website/sprite.svg#icon-check'></use>
                             </svg>
                           </span>
                           Investments
@@ -87,7 +87,7 @@ const Pricing: NextPage = () => {
                         <li className='flex opacity-40 mt-[0.8rem]'>
                           <span className='flex items-center '>
                             <svg className='w-[1.5rem] h-[1.5rem] mr-[2.4rem] stroke-transparent'>
-                              <use xlinkHref='/sprite.svg#icon-check'></use>
+                              <use xlinkHref='/payapi-website/sprite.svg#icon-check'></use>
                             </svg>
                           </span>
                           Assets
@@ -95,7 +95,7 @@ const Pricing: NextPage = () => {
                         <li className='flex opacity-40 mt-[0.8rem]'>
                           <span className='flex items-center '>
                             <svg className='w-[1.5rem] h-[1.5rem] mr-[2.4rem] stroke-transparent'>
-                              <use xlinkHref='/sprite.svg#icon-check'></use>
+                              <use xlinkHref='/payapi-website/sprite.svg#icon-check'></use>
                             </svg>
                           </span>
                           Liabilities
@@ -103,7 +103,7 @@ const Pricing: NextPage = () => {
                         <li className='flex opacity-40 mt-[0.8rem]'>
                           <span className='flex items-center '>
                             <svg className='w-[1.5rem] h-[1.5rem] mr-[2.4rem] stroke-transparent'>
-                              <use xlinkHref='/sprite.svg#icon-check'></use>
+                              <use xlinkHref='/payapi-website/sprite.svg#icon-check'></use>
                             </svg>
                           </span>
                           Income
@@ -146,7 +146,7 @@ const Pricing: NextPage = () => {
                         <li className='flex'>
                           <span className='flex items-center '>
                             <svg className='w-[1.5rem] h-[1.5rem] mr-[2.4rem] stroke-darkPink'>
-                              <use xlinkHref='/sprite.svg#icon-check'></use>
+                              <use xlinkHref='/payapi-website/sprite.svg#icon-check'></use>
                             </svg>
                           </span>
                           Transactions
@@ -154,7 +154,7 @@ const Pricing: NextPage = () => {
                         <li className='flex mt-[0.8rem]'>
                           <span className='flex items-center '>
                             <svg className='w-[1.5rem] h-[1.5rem] mr-[2.4rem] stroke-darkPink'>
-                              <use xlinkHref='/sprite.svg#icon-check'></use>
+                              <use xlinkHref='/payapi-website/sprite.svg#icon-check'></use>
                             </svg>
                           </span>
                           Auth
@@ -162,7 +162,7 @@ const Pricing: NextPage = () => {
                         <li className='flex mt-[0.8rem]'>
                           <span className='flex items-center '>
                             <svg className='w-[1.5rem] h-[1.5rem] mr-[2.4rem] stroke-darkPink'>
-                              <use xlinkHref='/sprite.svg#icon-check'></use>
+                              <use xlinkHref='/payapi-website/sprite.svg#icon-check'></use>
                             </svg>
                           </span>
                           Identity
@@ -170,7 +170,7 @@ const Pricing: NextPage = () => {
                         <li className='flex  mt-[0.8rem]'>
                           <span className='flex items-center '>
                             <svg className='w-[1.5rem] h-[1.5rem] mr-[2.4rem] stroke-darkPink'>
-                              <use xlinkHref='/sprite.svg#icon-check'></use>
+                              <use xlinkHref='/payapi-website/sprite.svg#icon-check'></use>
                             </svg>
                           </span>
                           Investments
@@ -178,7 +178,7 @@ const Pricing: NextPage = () => {
                         <li className='flex  mt-[0.8rem]'>
                           <span className='flex items-center '>
                             <svg className='w-[1.5rem] h-[1.5rem] mr-[2.4rem] stroke-darkPink'>
-                              <use xlinkHref='/sprite.svg#icon-check'></use>
+                              <use xlinkHref='/payapi-website/sprite.svg#icon-check'></use>
                             </svg>
                           </span>
                           Assets
@@ -186,7 +186,7 @@ const Pricing: NextPage = () => {
                         <li className='flex opacity-40 mt-[0.8rem]'>
                           <span className='flex items-center '>
                             <svg className='w-[1.5rem] h-[1.5rem] mr-[2.4rem] stroke-transparent'>
-                              <use xlinkHref='/sprite.svg#icon-check'></use>
+                              <use xlinkHref='/payapi-website/sprite.svg#icon-check'></use>
                             </svg>
                           </span>
                           Liabilities
@@ -194,7 +194,7 @@ const Pricing: NextPage = () => {
                         <li className='flex opacity-40 mt-[0.8rem]'>
                           <span className='flex items-center '>
                             <svg className='w-[1.5rem] h-[1.5rem] mr-[2.4rem] stroke-transparent'>
-                              <use xlinkHref='/sprite.svg#icon-check'></use>
+                              <use xlinkHref='/payapi-website/sprite.svg#icon-check'></use>
                             </svg>
                           </span>
                           Income
@@ -237,7 +237,7 @@ const Pricing: NextPage = () => {
                         <li className='flex'>
                           <span className='flex items-center '>
                             <svg className='w-[1.5rem] h-[1.5rem] mr-[2.4rem] stroke-darkPink'>
-                              <use xlinkHref='/sprite.svg#icon-check'></use>
+                              <use xlinkHref='/payapi-website/sprite.svg#icon-check'></use>
                             </svg>
                           </span>
                           Transactions
@@ -245,7 +245,7 @@ const Pricing: NextPage = () => {
                         <li className='flex mt-[0.8rem]'>
                           <span className='flex items-center '>
                             <svg className='w-[1.5rem] h-[1.5rem] mr-[2.4rem] stroke-darkPink'>
-                              <use xlinkHref='/sprite.svg#icon-check'></use>
+                              <use xlinkHref='/payapi-website/sprite.svg#icon-check'></use>
                             </svg>
                           </span>
                           Auth
@@ -253,7 +253,7 @@ const Pricing: NextPage = () => {
                         <li className='flex mt-[0.8rem]'>
                           <span className='flex items-center '>
                             <svg className='w-[1.5rem] h-[1.5rem] mr-[2.4rem] stroke-darkPink'>
-                              <use xlinkHref='/sprite.svg#icon-check'></use>
+                              <use xlinkHref='/payapi-website/sprite.svg#icon-check'></use>
                             </svg>
                           </span>
                           Identity
@@ -261,7 +261,7 @@ const Pricing: NextPage = () => {
                         <li className='flex  mt-[0.8rem]'>
                           <span className='flex items-center '>
                             <svg className='w-[1.5rem] h-[1.5rem] mr-[2.4rem] stroke-darkPink'>
-                              <use xlinkHref='/sprite.svg#icon-check'></use>
+                              <use xlinkHref='/payapi-website/sprite.svg#icon-check'></use>
                             </svg>
                           </span>
                           Investments
@@ -269,7 +269,7 @@ const Pricing: NextPage = () => {
                         <li className='flex mt-[0.8rem]'>
                           <span className='flex items-center '>
                             <svg className='w-[1.5rem] h-[1.5rem] mr-[2.4rem] stroke-darkPink'>
-                              <use xlinkHref='/sprite.svg#icon-check'></use>
+                              <use xlinkHref='/payapi-website/sprite.svg#icon-check'></use>
                             </svg>
                           </span>
                           Assets
@@ -277,7 +277,7 @@ const Pricing: NextPage = () => {
                         <li className='flex  mt-[0.8rem]'>
                           <span className='flex items-center '>
                             <svg className='w-[1.5rem] h-[1.5rem] mr-[2.4rem] stroke-darkPink'>
-                              <use xlinkHref='/sprite.svg#icon-check'></use>
+                              <use xlinkHref='/payapi-website/sprite.svg#icon-check'></use>
                             </svg>
                           </span>
                           Liabilities
@@ -285,7 +285,7 @@ const Pricing: NextPage = () => {
                         <li className='flex  mt-[0.8rem]'>
                           <span className='flex items-center '>
                             <svg className='w-[1.5rem] h-[1.5rem] mr-[2.4rem] stroke-darkPink'>
-                              <use xlinkHref='/sprite.svg#icon-check'></use>
+                              <use xlinkHref='/payapi-website/sprite.svg#icon-check'></use>
                             </svg>
                           </span>
                           Income

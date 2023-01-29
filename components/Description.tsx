@@ -16,7 +16,7 @@ const Description = () => {
           >
             <Image
               className='rounded-[6px]'
-              src='/illustration-easy-to-implement.png'
+              src='/payapi-website/illustration-easy-to-implement.png'
               alt='easy'
               width='445px'
               height='284px'
@@ -50,7 +50,7 @@ const Description = () => {
           translate-x-[-46.5%] xl:left-[77.7%] xl:w-[100rem]  '
             >
               <Image
-                src='/SVG/illustration-simple-ui.svg'
+                src='/payapi-website/SVG/illustration-simple-ui.svg'
                 height={792}
                 width={724}
                 alt='mobile'

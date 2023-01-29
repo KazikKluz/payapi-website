@@ -73,7 +73,7 @@ const About: NextPage = () => {
       </div>
       <div className=' mx-auto max-w-[37.5rem] md:hidden'>
         <Image
-          src='/image-team-members-mobile.jpg'
+          src='/payapi-website/image-team-members-mobile.jpg'
           width={375}
           height={300}
           alt='team'
@@ -81,7 +81,7 @@ const About: NextPage = () => {
       </div>
       <div className='mx-auto  max-w-[76.8rem] hidden md:block  xl:hidden md:mt-[5.8rem]'>
         <Image
-          src='/image-team-members-tablet.jpg'
+          src='/payapi-website/image-team-members-tablet.jpg'
           width={769}
           height={267}
           alt='team'
@@ -92,7 +92,7 @@ const About: NextPage = () => {
           <Circle size='780' />
         </div>
         <Image
-          src='/image-team-members_desktop.jpg'
+          src='/payapi-website/image-team-members_desktop.jpg'
           width={1440}
           height={500}
           alt='team'

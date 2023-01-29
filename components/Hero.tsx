@@ -49,7 +49,7 @@ const Hero = () => {
         md:top-[10.1rem] md:right-[24.15rem] w-[20.3rem] top-[8.6rem] right-[50%] translate-x-[56%] md:translate-x-0'
           >
             <Image
-              src='/SVG/illustration-phone-mockup.svg'
+              src='/payapi-website/SVG/illustration-phone-mockup.svg'
               height={660}
               width={419}
               alt='mobile'

@@ -12,7 +12,7 @@ const Footer = () => {
           <Link href='/'>
             <a className='flex items-center fill-linkWaterWhite  '>
               <svg className='w-[13.5rem] h-[3.8rem]'>
-                <use xlinkHref='/sprite.svg#logo'></use>
+                <use xlinkHref='/payapi-website/sprite.svg#logo'></use>
               </svg>
             </a>
           </Link>
@@ -44,21 +44,21 @@ const Footer = () => {
           <Link href='#'>
             <a>
               <svg className='w-[2.4rem] h-[2.4rem]'>
-                <use xlinkHref='/sprite.svg#facebook'></use>
+                <use xlinkHref='/payapi-website/sprite.svg#facebook'></use>
               </svg>
             </a>
           </Link>
           <Link href='#'>
             <a className='flex justify-center items-center'>
               <svg className='w-[2.4rem] h-[1.95rem]'>
-                <use xlinkHref='/sprite.svg#twitter'></use>
+                <use xlinkHref='/payapi-website/sprite.svg#twitter'></use>
               </svg>
             </a>
           </Link>
           <Link href='#'>
             <a>
               <svg className='w-[2.4rem] h-[2.4rem]'>
-                <use xlinkHref='/sprite.svg#linkedin'></use>
+                <use xlinkHref='/payapi-website/sprite.svg#linkedin'></use>
               </svg>
             </a>
           </Link>

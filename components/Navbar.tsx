@@ -45,7 +45,11 @@ const Navbar = () => {
       >
         <svg className='w-[3rem] h-[2.3rem]'>
           <use
-            xlinkHref={visible ? '/sprite.svg#close' : '/sprite.svg#menu'}
+            xlinkHref={
+              visible
+                ? '/payapi-website/sprite.svg#close'
+                : '/payapi-website/sprite.svg#menu'
+            }
           ></use>
         </svg>
       </div>
@@ -61,17 +65,17 @@ const Navbar = () => {
          font-[700] flex flex-col items-center '
         >
           <li className='mb-[3.2rem]'>
-            <Link href='/'>
+            <Link href='/pricing'>
               <a>Pricing</a>
             </Link>
           </li>
           <li className='mb-[3.2rem]'>
-            <Link href='/'>
+            <Link href='/about'>
               <a>About</a>
             </Link>
           </li>
           <li className='mb-[3.2rem]'>
-            <Link href='/'>
+            <Link href='/contact'>
               <a>Contact</a>
             </Link>
           </li>

@@ -81,7 +81,7 @@ const Form = () => {
         name='name'
         onChange={handleChange}
       />
-      <span>This field can&apos;t be empty</span>
+      {/* <span>This field can&apos;t be empty</span> */}
       <input
         className='input'
         type='email'

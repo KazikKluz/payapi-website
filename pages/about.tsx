@@ -8,12 +8,15 @@ import Circle from '../components/Circle';
 const About: NextPage = () => {
   return (
     <div className='bg-background'>
-      <div className='w-[100%]  '>
-        <div
-          className=' pt-[4rem]   relative  overflow-hidden
-    bg-circle bg-no-repeat bg-[length:780px_780px] bg-[right_-47.9rem_top_-64.4rem]
-    md:bg-[right_-51.7rem_top_-46.4rem] xl:bg-[right_-14rem_top_-52.7rem] xl:max-w-[144rem] mx-auto'
-        >
+      <div className='w-[100%] overflow-hidden '>
+        <div className='pt-[4rem] relative xl:max-w-[144rem] mx-auto'>
+          <div
+            className='absolute top-[-64.5rem] right-[-47.5rem]  md:top-[-46rem] md:right-[-52rem]  
+          xl:top-[-53rem] xl:right-[-14rem]  z-10
+         w-[78rem] h-[78rem]'
+          >
+            <Circle size='780' />
+          </div>
           <div className='px-[2.4rem] md:px-[3.9rem] xl:px-[16.5rem] pb-[8rem] md:pb-[3.4rem] mx-auto '>
             <Navbar />
             <div className='text-center xl:text-left xl:w-[92.1rem] xl:mx-auto'>

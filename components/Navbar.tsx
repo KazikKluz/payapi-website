@@ -36,7 +36,7 @@ const Navbar = () => {
           </Link>
         </li>
       </ul>
-      <div className='hidden md:block shadow-button rounded-[2.4rem]'>
+      <div className='hidden md:block shadow-button rounded-[2.4rem] z-10'>
         <Button>Schedule a Demo</Button>
       </div>
       <div

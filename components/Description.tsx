@@ -1,18 +1,22 @@
 import Image from 'next/image';
 import Button from './Button';
 import ReadyToStart from './ReadyToStart';
+import Circle from './Circle';
 
 const Description = () => {
   return (
-    <div className='w-[100%] bg-background'>
-      <div
-        className='py-[8rem] xl:pt-[15rem] xl:pb-0 bg-background xl:w-[144rem] mx-auto 
-      xl:bg-circle xl:bg-no-repeat xl:bg-[length:780px_780px] xl:bg-[right_-39rem_top_44.4rem] '
-      >
+    <div className='w-[100%] bg-background '>
+      <div className='py-[8rem] xl:pt-[15rem] xl:pb-0 bg-background xl:w-[144rem] mx-auto relative'>
+        <div
+          className='absolute hidden xl:block top-[44.5rem] right-[-39rem] z-10
+         w-[78rem] h-[78rem]'
+        >
+          <Circle size='780' />
+        </div>
         <div className='xl:flex xl:justify-center xl:gap-x-[12.5rem]'>
           <div
             className='drop-shadow-2xl shadow-button rounded-[6px] text-[0px]  w-[32.8rem] md:w-[39.3rem] mx-auto xl:ml-[16.5rem]
-        xl:mr-0 xl:w-[44.4rem]'
+        xl:mr-0 xl:w-[44.4rem] '
           >
             <Image
               className='rounded-[6px]'
@@ -47,7 +51,7 @@ const Description = () => {
           <div className='w-[32.8rem] h-[32rem] xl:h-[79.6rem] xl:w-auto '>
             <div
               className='rounded-[6px] text-[0px] absolute h-auto w-[41.5rem] md:w-[46.5rem]  top-[0] xl:top-[3rem] left-[50%] 
-          translate-x-[-46.5%] xl:left-[77.7%] xl:w-[100rem]  '
+          translate-x-[-46.5%] xl:left-[77.7%] xl:w-[100rem] z-10  '
             >
               <Image
                 src='/payapi-website/SVG/illustration-simple-ui.svg'

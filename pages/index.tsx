@@ -6,12 +6,12 @@ import Footer from '../components/Footer';
 
 const Home: NextPage = () => {
   return (
-    <>
+    <div className='overflow-hidden'>
       <Hero />
       <Companies />
       <Description />
       <Footer />
-    </>
+    </div>
   );
 };
 

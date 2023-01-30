@@ -21,17 +21,17 @@ const Navbar = () => {
     '
       >
         <li className='mr-[4rem]'>
-          <Link href='/'>
+          <Link href='/pricing'>
             <a className=''>Pricing</a>
           </Link>
         </li>
         <li className='mr-[4rem]'>
-          <Link href='/portfolio'>
+          <Link href='/about'>
             <a className=''>About</a>
           </Link>
         </li>
         <li>
-          <Link href='/contactme'>
+          <Link href='/contact'>
             <a className=''>Contact</a>
           </Link>
         </li>

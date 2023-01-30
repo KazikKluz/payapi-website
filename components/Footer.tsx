@@ -24,17 +24,17 @@ const Footer = () => {
          font-[700] flex flex-col md:flex-row md:justify-between items-center '
           >
             <li className='mb-[3.2rem] md:mr-[4rem]'>
-              <Link href='/'>
+              <Link href='/pricing'>
                 <a>Pricing</a>
               </Link>
             </li>
             <li className='mb-[3.2rem] md:mr-[4rem]'>
-              <Link href='/'>
+              <Link href='/about'>
                 <a>About</a>
               </Link>
             </li>
             <li className='mb-[3.2rem]'>
-              <Link href='/'>
+              <Link href='/contact'>
                 <a>Contact</a>
               </Link>
             </li>

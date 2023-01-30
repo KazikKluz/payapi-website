@@ -12,7 +12,7 @@ const Navbar = () => {
       <Link href='/'>
         <a className='flex items-center mr-[6.4rem] fill-sanJuanBlue'>
           <svg className='w-[13.5rem] h-[3.8rem]'>
-            <use xlinkHref='/sprite.svg#logo'></use>
+            <use xlinkHref='/payapi-website/sprite.svg#logo'></use>
           </svg>
         </a>
       </Link>

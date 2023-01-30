@@ -6,12 +6,12 @@ type Props = {
 
 const Circle = ({ size }: Props) => {
   return (
-    <div className={`w-[${size}rem] h-[${size}rem]`}>
+    <div className={`w-[${size}px] h-[${size}px]`}>
       <Image
         src='/SVG/bg-pattern-circle.svg'
         alt='circle'
-        width={780}
-        height={780}
+        width={size}
+        height={size}
       />
     </div>
   );

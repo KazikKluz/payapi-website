@@ -1,17 +1,25 @@
 import Image from 'next/image';
 import Navbar from './Navbar';
 import Button from './Button';
+import Circle from './Circle';
 
 const Hero = () => {
   return (
-    <div className='w-[100%] bg-background '>
+    <div className='w-[100%] bg-background  relative overflow-hidden '>
       <div
-        className='xl:h-[73.7rem] md:h-[80.9rem] h-[73.9rem] bg-background bg-circle bg-no-repeat xl:bg-[length:780px_780px]
-      md:bg-[length:949px_949px] bg-[length:780px_780px]
-      xl:bg-[right_-12.5rem_bottom_9.1rem] md:bg-[center_bottom_52.3rem] bg-[center_top_-55rem] relative 
-    overflow-clip pt-[4rem] xl:px-[16.5rem] md:px-[4rem] px-[2.4rem] xl:w-[144rem] md:w-[76.8rem] mx-auto flex flex-col justify-between 
+        className='xl:h-[73.7rem] md:h-[80.9rem] h-[73.9rem] bg-background relative 
+     pt-[4rem] xl:px-[16.5rem] md:px-[4rem] px-[2.4rem] xl:w-[144rem] md:w-[76.8rem] mx-auto flex flex-col justify-between 
      xl:pb-[15.2rem] md:pb-40 pb-[8rem] '
       >
+        <div
+          className='absolute top-[-55rem] right-[calc(50%_-_39rem)]  md:hidden xl:block xl:top-[-13.5rem] xl:right-[-12.5rem] z-10
+         w-[78rem] h-[78rem]'
+        >
+          <Circle size='780' />
+        </div>
+        <div className='absolute hidden md:block xl:hidden top-[-66.5rem] right-[-9rem] z-10 w-[94.9rem] h-[94.9rem] '>
+          <Circle size='949' />
+        </div>
         <Navbar />
         <div className=''>
           <div className='w-[32.6rem] md:w-auto text-center mx-auto'>
@@ -46,7 +54,7 @@ const Hero = () => {
           </div>
           <div
             className='absolute xl:top-[10.6rem] xl:right-[15.5rem] xl:w-[41.9rem] xl:h-[66rem] md:w-[25.3rem] h-auto
-        md:top-[10.1rem] md:right-[24.15rem] w-[20.3rem] top-[8.6rem] right-[50%] translate-x-[56%] md:translate-x-0'
+        md:top-[10.1rem] md:right-[24.15rem] w-[20.3rem] top-[8.6rem] right-[50%] translate-x-[56%] md:translate-x-0 z-20'
           >
             <Image
               src='/SVG/illustration-phone-mockup.svg'

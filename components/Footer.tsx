@@ -1,13 +1,20 @@
 import Link from 'next/link';
+import Circle from './Circle';
 
 const Footer = () => {
   return (
-    <div className='w-[100%] bg-mirageBlue'>
+    <div className='w-[100%] bg-mirageBlue overflow-hidden'>
       <div
         className='h-[35.3rem] md:h-[10rem] bg-mirageBlue flex flex-col md:flex-row pt-[4.1rem] pb-[5.5rem]
-    md:py-0 md:justify-center items-center bg-circle bg-no-repeat bg-[length:780px_780px] bg-[center_top_18rem]
-    md:bg-[right_-39rem_top_-13.6rem] xl:max-w-[144rem]  mx-auto'
+    md:py-0 md:justify-center items-center xl:max-w-[144rem]  mx-auto relative'
       >
+        <div
+          className='absolute top-[18rem] right-[calc(50%_-_39rem)]  md:top-[-14rem] md:right-[-39rem]  
+          xl:top-[-14rem]  z-10
+         w-[78rem] h-[78rem]'
+        >
+          <Circle size='780' />
+        </div>
         <div className='w-min mx-auto md:ml-[3.9rem] md:mr-[6.4rem] xl:ml-[16.4rem]'>
           <Link href='/'>
             <a className='flex items-center fill-linkWaterWhite  '>

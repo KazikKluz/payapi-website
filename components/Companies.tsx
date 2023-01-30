@@ -1,15 +1,22 @@
 import ButtonSecondary from './ButtonSecondary';
 import CompLogos from './CompLogos';
+import Circle from './Circle';
 
 const Companies = () => {
   return (
-    <div className='w-[100%] bg-mirageBlue'>
+    <div className='w-[100%] bg-mirageBlue overflow-hidden'>
       <div
-        className='flex flex-col xl:flex-row-reverse   h-[67rem] md:h-[61.5rem] bg-mirageBlue bg-circle bg-no-repeat bg-[length:78rem_78rem] bg-[center_top_-60rem]
-    md:bg-[center_top_-54.8rem] xl:bg-[left_-23.5rem_bottom_5.1rem] py-[8rem] md:py-[8.8rem] px-[2.4rem]
+        className='flex flex-col xl:flex-row-reverse   h-[67rem] md:h-[61.5rem] bg-mirageBlue 
+     py-[8rem] md:py-[8.8rem] px-[2.4rem]
     xl:h-[47.2rem] xl:w-[144rem] xl:mx-auto xl:py-[10rem] xl:px-[16.4rem] items-center 
-    fill-linkWaterWhite'
+    fill-linkWaterWhite relative '
       >
+        <div
+          className='absolute top-[-60rem] right-[calc(50%_-_39rem)]  md:top-[-55rem]  xl:top-[-36rem] xl:left-[-23.5rem] z-10
+         w-[78rem] h-[78rem]'
+        >
+          <Circle size='780' />
+        </div>
         <CompLogos />
         <div>
           <h2
